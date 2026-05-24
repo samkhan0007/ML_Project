@@ -1,0 +1,13 @@
+prefix=D:/SML_Project/myenv/Library
+exec_prefix=D:/SML_Project/myenv/Library
+libdir=D:/SML_Project/myenv/Library/lib
+sharedlibdir=D:/SML_Project/myenv/Library/lib
+includedir=D:/SML_Project/myenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

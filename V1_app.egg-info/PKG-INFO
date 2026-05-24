@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: V1_app
+Version: 0.0.1
+Summary: A sample python application
+Home-page: https://github.com/samkhan0007/ML_Project/tree/main
+Author: Sameer Khan
+Author-email: sameerkhanofficial2401@gmail.com
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary

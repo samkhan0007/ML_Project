@@ -1,0 +1,6 @@
+2026-05-24 21:39:08,832 - INFO - Confirmation that things are working.
+2026-05-24 21:39:08,833 - WARNING - An unexpected issue occurred.
+2026-05-24 21:39:08,838 - INFO - Data Ingestion method starts
+2026-05-24 21:39:08,849 - INFO - Dataset read as pandas dataframe
+2026-05-24 21:39:08,855 - INFO - Raw data is saved
+2026-05-24 21:39:10,321 - INFO - Train and Test data is saved

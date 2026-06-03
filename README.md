@@ -185,7 +185,7 @@ The application provides an intuitive interface where users can enter student in
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/student-performance-prediction.git
+git clone https://github.com/samkhan0007/ML_Project.git
 ```
 
 ### Move into Project Directory

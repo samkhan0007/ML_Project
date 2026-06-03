@@ -191,7 +191,7 @@ git clone https://github.com/samkhan0007/ML_Project.git
 ### Move into Project Directory
 
 ```bash
-cd student-performance-prediction
+cd ML_Project
 ```
 
 ### Create Virtual Environment

@@ -46,33 +46,165 @@ The model is deployed through a user-friendly Streamlit web application.
 ## 🏗️ Project Structure
 
 ```text
+## 📂 Project Structure
+
+```text
 Student-Performance-Prediction/
-│
-├── notebook/
-│   └── EDA.ipynb
-│
-├── src/
-│   ├── components/
-│   │   ├── data_ingestion.py
-│   │   ├── data_transformation.py
-│   │   ├── model_trainer.py
-│   │
-│   ├── pipelines/
-│   │   ├── trainer_pipeline.py
-│   │   ├── predict_pipeline.py
-│   │
-│   ├── logger.py
-│   ├── custom_exception.py
-│   └── utils.py
 │
 ├── artifacts/
 │   ├── model.pkl
 │   ├── preprocessor.pkl
+│   ├── Raw_Data.csv
+│   ├── train_data.csv
+│   └── test_data.csv
 │
+├── build/
+│   └── lib/
+│       └── src/
+│           ├── components/
+│           │   ├── __init__.py
+│           │   ├── data_ingestion.py
+│           │   ├── data_transformation.py
+│           │   └── model_trainer.py
+│           │
+│           ├── pipelines/
+│           │   ├── __init__.py
+│           │   ├── trainer_pipeline.py
+│           │   └── predict_pipeline.py
+│           │
+│           ├── custom_exception.py
+│           ├── logger.py
+│           └── utils.py
+│
+├── logs/
+│
+├── myenv/
+│
+├── notebook/
+│   ├── EDA.ipynb
+│   └── Student_Performance_Analysis.ipynb
+│
+├── src/
+│   ├── __pycache__/
+│   │
+│   ├── components/
+│   │   ├── __init__.py
+│   │   ├── data_ingestion.py
+│   │   ├── data_transformation.py
+│   │   └── model_trainer.py
+│   │
+│   ├── pipelines/
+│   │   ├── __init__.py
+│   │   ├── trainer_pipeline.py
+│   │   └── predict_pipeline.py
+│   │
+│   ├── custom_exception.py
+│   ├── logger.py
+│   └── utils.py
+│
+├── V1_app.egg-info/
+│
+├── .gitignore
 ├── app.py
 ├── requirements.txt
 ├── setup.py
-└── README.md
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 📁 Folder Description
+
+### artifacts/
+Stores generated artifacts after model training.
+
+| File | Description |
+|--------|------------|
+| model.pkl | Trained machine learning model |
+| preprocessor.pkl | Saved preprocessing pipeline |
+| Raw_Data.csv | Original dataset |
+| train_data.csv | Training dataset |
+| test_data.csv | Testing dataset |
+
+### src/components/
+Contains core machine learning components.
+
+| File | Purpose |
+|--------|---------|
+| data_ingestion.py | Reads dataset and splits train/test data |
+| data_transformation.py | Data preprocessing and feature engineering |
+| model_trainer.py | Model training and evaluation |
+
+### src/pipelines/
+Contains training and prediction pipelines.
+
+| File | Purpose |
+|--------|---------|
+| trainer_pipeline.py | Executes complete training workflow |
+| predict_pipeline.py | Loads model and performs predictions |
+
+### src/
+Utility and support modules.
+
+| File | Purpose |
+|--------|---------|
+| logger.py | Logging configuration |
+| custom_exception.py | Custom exception handling |
+| utils.py | Helper functions for saving/loading objects and model evaluation |
+
+### notebook/
+Contains exploratory data analysis and experimentation notebooks.
+
+### logs/
+Stores generated log files during training and prediction.
+
+### app.py
+Main Streamlit application file that provides:
+
+- Train Model Page
+- Prediction Page
+- User Interface
+
+### setup.py
+Project packaging and installation configuration.
+
+### requirements.txt
+Lists all required Python dependencies.
+
+---
+
+## 🔄 ML Workflow
+
+```text
+Dataset
+   │
+   ▼
+Data Ingestion
+   │
+   ▼
+Train-Test Split
+   │
+   ▼
+Data Transformation
+   │
+   ▼
+Feature Engineering
+   │
+   ▼
+Model Training
+   │
+   ▼
+Model Evaluation
+   │
+   ▼
+Save Best Model
+   │
+   ▼
+Prediction Pipeline
+   │
+   ▼
+Streamlit Application
 ```
 
 ---

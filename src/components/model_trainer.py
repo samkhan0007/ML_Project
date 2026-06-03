@@ -8,7 +8,7 @@ from sklearn.metrics import r2_score
 from src.logger import logging
 from src.custom_exception import CustomException
 from dataclasses import dataclass
-from src.components.data_injestion import DataIngestion
+from src.components.data_ingestion import DataIngestion
 from src.components.data_transformation import DataTransformation
 
 @dataclass

@@ -45,6 +45,7 @@ The model is deployed through a user-friendly Streamlit web application.
 
 ## 🏗️ Project Structure
 
+```text
 Student-Performance-Prediction/
 │
 ├── artifacts/
@@ -202,7 +203,6 @@ Prediction Pipeline
    ▼
 Streamlit Application
 ```
-
 ---
 
 ## 📊 Dataset Features

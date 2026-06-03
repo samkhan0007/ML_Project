@@ -418,7 +418,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Sameer Khan**
 
 Machine Learning Engineer
 

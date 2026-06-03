@@ -1,6 +1,6 @@
 import streamlit as st
-from src.pipeline.trainer_pipeline import TrainerPipeline
-from src.pipeline.predict_pipeline import PredictPipeline
+from src.pipelines.trainer_pipeline import TrainerPipeline
+from src.pipelines.predict_pipeline import PredictPipeline
 
 
 def main():

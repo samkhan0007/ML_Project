@@ -2,7 +2,7 @@
 
 A Machine Learning project that predicts student academic performance based on demographic, educational, and examination-related factors.
 
-<img width="1540" height="614" alt="Screenshot 2025-10-13 150707" src="https://github.com/samkhan0007/Rag_ChatBot/blob/main/ChatBot_Interface.png" />
+<img width="1540" height="614" alt="Screenshot 2025-10-13 150707" src="https://github.com/samkhan0007/ML_Project/blob/main/Interface.png" />
 
 The application provides an interactive web interface built with **Streamlit**, allowing users to train the model and predict student performance using various input features such as gender, parental education, lunch type, test preparation course, and subject scores.
 

@@ -1,2 +1,16 @@
 2026-06-03 16:10:19,410 - INFO - Confirmation that things are working.
 2026-06-03 16:10:19,411 - WARNING - An unexpected issue occurred.
+2026-06-03 16:10:38,865 - INFO - Model trainer pipeline is initiated
+2026-06-03 16:10:38,866 - INFO - Entered the data ingestion method or component
+2026-06-03 16:10:38,994 - INFO - Read the dataset as dataframe
+2026-06-03 16:10:39,022 - INFO - Saved the raw data to path: artifacts\raw_data.csv
+2026-06-03 16:10:39,064 - INFO - Split the data into train and test sets and saved to paths: artifacts\train_data.csv and artifacts\test_data.csv
+2026-06-03 16:10:39,134 - INFO - Read train and test data successfully
+2026-06-03 16:10:39,146 - INFO - Numerical and categorical pipelines created successfully
+2026-06-03 16:10:39,341 - INFO - Data transformation completed successfully
+2026-06-03 16:10:39,369 - INFO - Model training is completed successfully
+2026-06-03 16:10:39,374 - INFO - Model evaluation is completed successfully with r2 score: 0.9855263760880422
+2026-06-03 16:10:39,379 - INFO - Trained model saved at path: artifacts\model.pkl
+2026-06-03 16:10:39,379 - INFO - Model trainer pipeline is completed successfully
+2026-06-03 16:11:01,777 - INFO - Trained model loaded successfully for prediction
+2026-06-03 16:12:10,618 - INFO - Trained model loaded successfully for prediction
